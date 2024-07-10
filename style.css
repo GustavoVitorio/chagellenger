@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+:root {
+    --white: #FFFFFF;
+    --dark-blue: #0A3871;
+    --fundo-da-pagina: #F3F5FC;
+    --fundo-de-um-dos-botoes: #D8DFE8;
+    --letra-cinza-escuro: #343A40;
+    --letra-cinza-escuro: #495057;
+    
+    --fonte: "Inter", sans-serif;
+}
+
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: var(--fundo-da-pagina);
+}
+
+.secao {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.conteudo {
+    margin-top: 5rem;
+    margin-left: 15rem;
+    height: 100%;
+}
+
+.secao__Input__Texto {
+    width: 100%;
+    padding-bottom: 100%;
+    margin-bottom: 10px;
+    font-family:var(--fonte);
+    font-weight: 400;
+    font-size: 2rem;
+    background-color: var(--fundo-da-pagina);
+    color: var(--dark-blue);
+    border-style: none;
+    outline: none;
+}
+
+.imagem__alura {
+    margin: 2.5rem 0rem 0rem 2.5rem;
+}
+
+.parte_inferior {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.secao__texto {
+    font-family: var(--fonte);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+}
+
+.secao__button__codificar, .secao__button__descodificar, .botao__copiar{
+    padding: 15%;
+    border-radius: 24px;
+    font-family: var(--fonte);
+    font-weight: 400;
+    font-size: 16px;
+    border-color: var(--dark-blue);
+    border-style: solid;
+    width: 23.75rem;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    
+}
+
+.secao__button__codificar {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    margin-right: 24px;
+}
+
+.secao__button__descodificar {
+    background-color: var(--fundo-de-um-dos-botoes);
+    color: var(--dark-blue);
+}
+
+.articulacao {
+    margin: 2.2%;
+    margin-bottom: 0%;
+    background-color: var(--white);
+    border: 0px;
+    border-radius: 32px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto__resultado {
+    border: 0px;
+    height: 100%;
+    width: 100%;
+    left: 100%;
+    font-family: var(--fonte);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.articulacao__imagem {
+    margin-bottom: 32px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.articulacao__texto {
+    font-family: var(--fonte);
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+}
+
+.articulacao__texto__pequeno {
+    font-family: var(--fonte);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.botao__copiar {
+    background-color: var(--white);
+    margin-top: 2rem;
+}
+
+.invisivel {
+    display: none;
+}
